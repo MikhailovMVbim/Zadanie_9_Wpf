@@ -1,0 +1,20 @@
+﻿<Window x:Class="Zadanie_3_Wpf.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie_3_Wpf"
+        mc:Ignorable="d"
+        Title="О программе" Height="200" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock Margin="5" Padding="5" TextWrapping="Wrap">
+            <Run FontWeight="Bold">Обязательное задание:</Run>
+            <LineBreak />
+            <LineBreak />
+            <Run FontStyle="Italic">
+            Доработать проект текстового редактора из задания 5, заменив все обработчики событий командами.
+            </Run>
+
+        </TextBlock>
+    </Grid>
+</Window>
